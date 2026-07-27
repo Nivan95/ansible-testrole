@@ -1,0 +1,5 @@
+---
+- name: Testrole ausführen
+  hosts: all
+  roles:
+    - testrole
