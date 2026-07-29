@@ -1,0 +1,7 @@
+---
+# SPDX-License-Identifier: MIT-0
+- name: Teste unattended_upgrades Rolle gegen localhost
+  hosts: localhost
+  remote_user: root
+  roles:
+    - unattended_upgrades
