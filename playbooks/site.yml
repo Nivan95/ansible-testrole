@@ -3,3 +3,4 @@
   hosts: all
   roles:
     - testrole
+    - unattended_upgrades
